@@ -1,0 +1,192 @@
+# ShadowCom - .gitignore
+
+# ================================
+# SECURITY - NEVER COMMIT THESE
+# ================================
+*.key
+*.pem
+*.p12
+*.keystore
+*.jks
+*-key.json
+.env
+.env.*
+!.env.example
+secrets/
+keys/
+certificates/
+config/production.json
+wireguard.conf
+obfs4_bridgeline.txt
+
+# ================================
+# OS Generated Files
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ================================
+# Node.js / npm
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.eslintcache
+.yarn-integrity
+.pnp.*
+
+# ================================
+# React Native
+# ================================
+# Metro bundler
+.metro-health-check*
+
+# Android
+android/app/debug
+android/app/release
+android/app/build/
+android/gradle.properties
+android/keystore.properties
+android/app/my-upload-key.keystore
+
+# iOS  
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/xcuserdata
+ios/*.xcodeproj/xcuserdata
+ios/*.xcodeproj/project.xcworkspace/xcuserdata
+ios/ShadowCom.xcarchive
+
+# Flipper
+ios/Flipper-Folly
+
+# ================================
+# Development Tools
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# ================================
+# Docker
+# ================================
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# ================================
+# Cloud Infrastructure
+# ================================
+terraform.tfstate*
+terraform.tfvars
+.terraform/
+*.tfplan
+
+# Ansible
+ansible/inventory/hosts
+ansible/group_vars/production.yml
+
+# ================================
+# VPN & Network Config
+# ================================
+vpn-server/configs/*.conf
+stun-turn-server/turnserver.conf
+signaling-server/config/production.js
+
+# ================================
+# Temporary Files
+# ================================
+tmp/
+temp/
+.tmp/
+.cache/
+*.tmp
+*.temp
+
+# ================================
+# Backup Files
+# ================================
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+
+# ================================
+# IDE and Editor Files
+# ================================
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/
+*.sublime-*
+*.code-workspace
+
+# ================================
+# Testing
+# ================================
+coverage/
+test-results/
+*.test.log
+e2e/screenshots/
+e2e/videos/
+
+# ================================
+# Documentation Builds
+# ================================
+docs/_build/
+docs/dist/
+site/
+
+# ================================
+# Database
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+database.url
+
+# ================================
+# Monitoring & Logs
+# ================================
+logs/
+*.log
+monitoring/data/
+prometheus/data/
+grafana/data/
+
+# ================================
+# Package Manager
+# ================================
+package-lock.json
+yarn.lock
+composer.lock
+
+# But keep example files
+!*.example.*
+!.env.example
+!config.example.json 
