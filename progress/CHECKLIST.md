@@ -9,9 +9,9 @@
 
 ### 📋 Preparação e Setup
 
-- [ ] **Estrutura do Projeto**
-  - [ ] Configurar repositório Git
-  - [ ] Criar estrutura de pastas
+- [x] **Estrutura do Projeto**
+  - [x] ✅ Configurar repositório Git
+  - [x] ✅ Criar estrutura de pastas
   - [ ] Configurar ambiente de desenvolvimento
   - [ ] Setup do sistema de CI/CD básico
 
