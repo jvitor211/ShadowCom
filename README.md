@@ -1,4 +1,6 @@
 # 🕊️ ShadowCom - Sistema de Comunicação Criptografada
+<img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/2c3bd86f-f5ca-4383-a213-4f939cec601c" />
+
 
 > Sistema de Comunicação Criptografada via VoIP sobre LTE com E2EE e Camuflagem de Tráfego
 
